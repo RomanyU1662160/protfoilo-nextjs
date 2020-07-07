@@ -1,7 +1,6 @@
 import { useRouter } from "next/router";
 
 const RepoDetails = props => {
-  console.log("repos :>> ", repo);
   const { query } = useRouter();
 
   return (
